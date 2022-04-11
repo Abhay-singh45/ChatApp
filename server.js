@@ -11,7 +11,7 @@ const io = socketio(server);
 
 //set static foler
 app.use(express.static(path.join(__dirname, 'public')));
-const botName = 'ChatChord Bot';
+const botName = 'ChatCord Bot';
 
 //run when client connects 
 io.on('connection', socket => {
